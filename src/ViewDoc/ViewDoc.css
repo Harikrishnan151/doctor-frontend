@@ -1,0 +1,102 @@
+.img{
+    height: 350px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+@media screen and (min-width:280px) and (max-width:320px){
+   
+    .row{
+        flex-direction: column;
+    }
+    .card{
+        width: 290px;
+    }
+    .img{
+        width: 280px;
+        height: 260px;
+    }
+}
+@media screen and (min-width:321px) and (max-width:360px){
+
+    .row{
+        flex-direction: column;
+    }
+    .card{
+        width: 290px;
+    }
+    .img{
+        width: 280px;
+        height: 260px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:390px){
+
+    .row{
+        flex-direction: column;
+    }
+    .card{
+        width: 295px;
+    }
+    .img{
+        width: 280px;
+        height: 260px;
+    }
+}
+
+@media screen and (min-width:390px) and (max-width:394px){
+
+    .row{
+        flex-direction: column;
+    }
+    .card{
+        width: 295px;
+    }
+    .img{
+        width: 280px;
+        height: 260px;
+    }
+}
+@media screen and (min-width:394px) and (max-width:415px){
+
+    .row{
+        flex-direction: column;
+    }
+    .card{
+        width: 300px;
+    }
+    .img{
+        width: 290px;
+        height: 260px;
+    }
+
+}
+
+@media screen and (min-width:415px) and (max-width:430px){
+
+    .row{
+        flex-direction: column;
+    }
+    .card{
+        width: 300px;
+    }
+    .img{
+        width: 290px;
+        height: 260px;
+    }
+}
+
+@media screen and (min-width:431px) and (max-width:540px){
+
+    .row{
+        flex-direction: column;
+    }
+    .card{
+        width: 400px;
+    }
+    .img{
+        width: 400px;
+        height: 260px;
+    }
+    
+}
